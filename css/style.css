@@ -1,41 +1,58 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f4f4f4;
+.hero {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+              url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+  background-size: cover;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
 }
 
-header {
-  background: #0d47a1;
-  color: white;
-  padding: 30px;
-  text-align: center;
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #ff9800;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .produtos {
   display: flex;
   gap: 20px;
-  padding: 40px;
   justify-content: center;
+  padding: 50px 20px;
+  flex-wrap: wrap;
 }
 
 .card {
   background: white;
+  width: 260px;
   padding: 20px;
-  width: 250px;
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.1);
   text-align: center;
 }
 
 .card img {
   width: 100%;
+  border-radius: 8px;
+}
+
+.card .preco {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #2e7d32;
 }
 
 .card a {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px;
   background: #1976d2;
   color: white;
-  text-decoration: none;
+  padding: 10px;
+  display: block;
   border-radius: 5px;
+  text-decoration: none;
 }
+
