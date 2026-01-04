@@ -1,3 +1,24 @@
-.github/workflows/notebook.jpg.jpg
-.github/workflows/fone.jpg.jpg
+<!-- Sugestão de HTML atualizado (mais semântico e pronto para links/CTA) -->
+<div class="produtos">
+  <article class="item">
+    <a href="#" aria-label="Ver Fone de ouvido Bluetooth" title="Fone de ouvido Bluetooth">
+      <img src="imagens/fone-bluetooth.jpg"
+           alt="Fone de ouvido Bluetooth sem fio com microfone e cancelamento" loading="lazy">
+      <div class="meta">
+        <p>Fone de ouvido Bluetooth</p>
+        <span class="cta" role="button">Comprar</span>
+      </div>
+    </a>
+  </article>
 
+  <article class="item">
+    <a href="#" aria-label="Ver Notebook Ryzen 7" title="Notebook Ryzen 7">
+      <img src="imagens/notebook-ryzen7.jpg"
+           alt="Notebook com processador Ryzen 7 e tela de alta resolução" loading="lazy">
+      <div class="meta">
+        <p>Notebook Ryzen 7</p>
+        <span class="cta" role="button">Comprar</span>
+      </div>
+    </a>
+  </article>
+</div>
